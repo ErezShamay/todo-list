@@ -79,7 +79,7 @@ const handleUserInput = (option) => {
             break;
 
         default:
-            console.log(chalk.red('\nInvalid option. Try again.'));
+            console.log(chalk.red(`Invaid option was entered: ${option} \nTry again`));
             main();
             break;
     }
